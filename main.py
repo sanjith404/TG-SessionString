@@ -1,10 +1,11 @@
 import os
 import asyncio
 from aiohttp import web
+import pyromod
 from pyrogram import Client as PyroClient, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery, InputMediaPhoto
 from pyrogram.errors import SessionPasswordNeeded, PhoneCodeInvalid, PhoneCodeExpired, PasswordHashInvalid, ApiIdInvalid
-import pyromod.listen
+
 
 from telethon import TelegramClient
 from telethon.sessions import StringSession
