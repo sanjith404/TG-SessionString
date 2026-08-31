@@ -3,3 +3,4 @@ tgcrypto
 aiohttp
 pyromod
 telethon
+pyrofork
