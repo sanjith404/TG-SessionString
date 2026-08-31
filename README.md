@@ -1,4 +1,4 @@
-# Telegram Session String Generator Bot [V2]
+# Telegram Session String Generator Bot
 
 A secure, feature-rich Telegram bot built using **Pyrogram**, **Telethon**, and **Pyromod** to generate session strings entirely in-memory.
 
