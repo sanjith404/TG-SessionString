@@ -41,7 +41,7 @@ async def start_health_server():
 async def start_cmd(_, message: Message):
     user_name = message.from_user.first_name
     start_text = (
-        f"┌─ ⚡ **INFORMATION** ⚡ ─\n"
+        f"┌───────────────────────\n\n"
         f"│ ◍ **HEY** {user_name}\n"
         f"│ ◍ **I'M** : String Session Bot\n"
         f"└───────────────────────\n\n"
@@ -116,14 +116,14 @@ async def basic_guides_cb(_, cb: CallbackQuery):
 async def back_to_start_cb(_, cb: CallbackQuery):
     user_name = cb.from_user.first_name
     start_text = (
-        f"┌─ ⚡ **INFORMATION** ⚡ ─\n"
+        f"┌───────────────────────\n\n"
         f"│ ◍ **HEY** {user_name}\n"
-        f"│ ◍ **I'M** : String Session Bot [V2]\n"
+        f"│ ◍ **I'M** : String Session Bot\n"
         f"└───────────────────────\n\n"
         f"✿ **I'M A SESSION GENERATE BOT.**\n"
         f"❄️ **SUPPORT** - PYROGRAM | TELETHON.\n"
         f"★ **NO ID LOG OUT ISSUE & FULL SECURE.**\n\n"
-        f"❖ **POWERED BY** :- **`TEAM-BOTS`** 🔥"
+        f"❖ **POWERED BY** :- **`@ITACHI_404`** 🔥"
     )
     buttons = InlineKeyboardMarkup([
         [InlineKeyboardButton("🧬 GENERATE SESSION", callback_data="main_menu_gen")],
